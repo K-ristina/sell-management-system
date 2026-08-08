@@ -1,0 +1,6 @@
+# 数据库连接配置示例（本文件可入库）
+# 使用方式：在 src/main/resources 下复制本文件为 db.properties，填入真实参数。
+# 注意：db.properties 已被 .gitignore 忽略，不会上传，用于保护数据库凭据。
+db.url=jdbc:sqlserver://localhost:1433;databaseName=sellsystem;encrypt=false;trustServerCertificate=true;
+db.user=your_username
+db.password=your_password

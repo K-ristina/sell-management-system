@@ -1,0 +1,30 @@
+# ===== Java / Maven 构建产物 =====
+target/
+*.class
+*.jar
+!.mvn/wrapper/*.jar
+
+# ===== 本地打包产物（exe，体积大，不入库）=====
+dist/
+
+# ===== 本地工具与环境 =====
+.tools/
+.obsidian/
+.vscode/
+07245659_张韩_数据库课设 .docx
+文档/
+
+# ===== 本地数据库连接配置（含密码，不入库；.example 示例可入库）=====
+db.properties
+
+# ===== IDE =====
+.idea/
+*.iml
+
+# ===== 日志与临时文件 =====
+*.log
+*.tmp
+
+# ===== 操作系统文件 =====
+Thumbs.db
+Desktop.ini
